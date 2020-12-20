@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+     
+/* apply styles to <header> */
+header {
+    padding: 10px 10px;
+    background-color: #3bc101;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #04510768;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+#grid{
+    display: grid;
+}
+
+.grid-container {
+  display: grid;
+    grid: 150px / auto auto auto
+    
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: about me; }
+.item3 { grid-area: main; }
+.item4 { grid-area: work; }
+.item5 { grid-area: contact me; }
+
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: deepskyblue;
+  }
+
+  .flex-container > div {
+    background-color: deepskyblue;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
