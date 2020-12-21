@@ -7,8 +7,6 @@
      
 /* apply styles to <header> */
 header {
-    padding: 10px 10px;
-    background-color: #3bc101;
 }
 header h1 {
     font-weight: bold;
@@ -39,47 +37,87 @@ header nav ul li a {
     font-size: 20px;
 }
 
-#grid{
-    display: grid;
-}
+  .item1 {
+      font-size: 40px;
+      background-image: url("./images/blues.jpg");
+      text-align: right;
+      padding-top: 200px;
+      
+    }
+    .content-area
+    {
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+     margin: 0 auto;
 
-.grid-container {
-  display: grid;
-    grid: 150px / auto auto auto
-    
-}
+    }
+    .content-area div{
+      display: flex;
+     margin: 10px; 
+       
+    }
+    .content-area h1 {
+      border-right: 4px solid gray;
+     
+    }
+    .item2 
 
-.item1 { grid-area: header; }
-.item2 { grid-area: about me; }
-.item3 { grid-area: main; }
-.item4 { grid-area: work; }
-.item5 { grid-area: contact me; }
+    .content-area
+    {
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+     margin: 0 auto;
 
-.grid-container {
-    display: grid;
-    grid-gap: 10px;
-    background-color: #2196F3;
-    padding: 10px;
-  }
+    }
+    .content-area div{
+      display: flex;
+     margin: 10px; 
+       
+    }
+    .content-area h2 {
+      border-right: 4px solid gray;
   
-  .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-  }
+     
+    }
 
-  .flex-container {
-    display: flex;
-    flex-direction: column;
-    background-color: deepskyblue;
-  }
+    .item3
+    .content-area
+    {
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+     margin: 0 auto;
 
-  .flex-container > div {
-    background-color: deepskyblue;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-  }
+    }
+    .content-area div{
+      display: flex;
+     margin: 10px; 
+       
+    }
+    .content-area h3 {
+      border-right: 4px solid gray;
+  
+     
+    }
+    .item4
+    
+    .content-area
+    {
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+     margin: 0 auto;
+
+    }
+    .content-area div{
+      display: flex;
+     margin: 10px; 
+       
+    }
+    .content-area h4 {
+      border-right: 4px solid gray;
+
+    }
+  
